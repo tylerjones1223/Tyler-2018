@@ -1,0 +1,29 @@
+{
+  "name": "tyler-2018",
+  "version": "1.0.0",
+  "description": "Authenticator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node --harmony index.js",
+    "tester": "node --harmony tester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerjones1223/Tyler-2018.git"
+  },
+  "author": "Tyler Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerjones1223/Tyler-2018/issues"
+  },
+  "homepage": "https://github.com/tylerjones1223/Tyler-2018#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "request": "^2.87.0",
+    "ursa": "^0.9.4"
+  }
+}
